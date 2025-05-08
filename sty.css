@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #f5f0e6 0%, #ffffff 100%);
+    background-image: radial-gradient(circle at top left, #f0e6d2 2%, transparent 40%), 
+                      radial-gradient(circle at bottom right, #e9dfc7 4%, transparent 60%);
+    color: #111;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #ddd;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #333;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  .contact {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 8px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h2 {
+    border-left: 5px solid #d4af7f;
+    padding-left: 10px;
+    margin: 30px 0 15px;
+    font-size: 1.5em;
+    color: #222;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table td {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  /* ✅ تعديل حجم الصور هنا */
+  .certificates img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
